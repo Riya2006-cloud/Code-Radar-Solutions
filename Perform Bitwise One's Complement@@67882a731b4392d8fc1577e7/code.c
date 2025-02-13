@@ -3,7 +3,7 @@
 int main(){
     int num;
     scanf("%d %d", &num);
-    int or=!(num|0);
+    int or=(num^0);
     printf("%d", or);
     return 0;
 }
