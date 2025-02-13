@@ -3,7 +3,7 @@
 int main(){
     int num;
     scanf("%d", &num);
-    int MSB=1>>31;
+    int MSB=1<<31;
     if((num&MSB)==1){
         printf("Set");
     }
