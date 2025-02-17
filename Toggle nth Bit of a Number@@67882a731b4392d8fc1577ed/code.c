@@ -8,7 +8,7 @@ int main(){
         printf("%d", num);
     }
     else{
-        num=num | ~(1<<n);
+        num=num | (1<<n);
         printf("%d", num);
     }
 }
