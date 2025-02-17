@@ -3,7 +3,8 @@
 int main(){
     int num,n;
     scanf("%d %d", &num, &n);
-    int check=(num>>n)&1;
-    num=num&(1<<n);
-    printf("%d", num);
+    if((num>>n)&1){
+        num=num&(1<<n);
+        printf("%d", num);
+    }
 }
