@@ -3,8 +3,11 @@
 int main(){
     int num;
     scanf("%d", &num);
-    for (int i=31; i>0; i--){
-         printf("%d", (num >> i) & 1);
+int started = 0;
+    for (int i = 31; i >= 0; i--) {
+        if ((num >> i) & 1) { 
+            printf("%d", (num >> i) & 1);
+        }
     }
     printf("\n");
 }
