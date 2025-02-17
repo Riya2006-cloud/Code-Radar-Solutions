@@ -4,5 +4,5 @@ int main(){
     int num,n;
     scanf("%d %d", &num, &n);
     int MSB=(num>>(n-1)&1);
-    print("%d", MSB);
+    printf("%d", MSB);
 }
