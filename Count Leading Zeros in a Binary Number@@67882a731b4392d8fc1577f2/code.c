@@ -7,6 +7,9 @@ int main(){
         if(((num>>i)&1)==0)
             count++;
         }
+        else{
+            break;
+        }
     printf("%d", count);
     return 0;
 }
