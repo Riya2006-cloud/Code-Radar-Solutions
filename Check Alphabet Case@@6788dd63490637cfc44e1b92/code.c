@@ -10,6 +10,6 @@ int main(){
         printf("Lowercase");
     }
     else{
-        printf("Nat an alphabet");
+        printf("Not an alphabet");
     }
 }
