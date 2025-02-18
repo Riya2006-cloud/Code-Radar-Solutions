@@ -12,6 +12,6 @@ int main() {
             return 0;
         }
     }
-    printf("Prime number", num1);
+    printf("Prime");
     return 0;
 }
