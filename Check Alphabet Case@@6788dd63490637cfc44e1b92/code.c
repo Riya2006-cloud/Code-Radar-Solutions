@@ -6,7 +6,10 @@ int main(){
     if(num >= 'A' && num <= 'Z'){
         printf("Uppercase");
     }
-    else{
+    else if(num >= 'a' && num <= 'z'){
         printf("Lowercase");
+    }
+    else{
+        printf("Nat an alphabet");
     }
 }
