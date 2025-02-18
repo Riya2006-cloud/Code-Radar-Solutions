@@ -3,19 +3,19 @@
 int main(){
     int num1;t=0;
     scanf("%d", &num1);
-    for (int i=2; i<=num1-1; i++){
-        if(num1 % i == 0){
-            t=1;
-            break;
+    for (num = 2; num <= 100; num++) {
+        t = 0;
+
+        for (i = 2; i <= num / 2; i++) {
+            if (num % i == 0) {
+                t= 1;
+                break;
+            }
         }
-        else {
-            printf("Prime");
-        }   
+
+        if (t== 0) {
+            printf("%d ", num);
+        }
     }
-if(t==0){
-    printf("prime");
-}
-else{
-    printf("not prime");
-}    
+
 }
