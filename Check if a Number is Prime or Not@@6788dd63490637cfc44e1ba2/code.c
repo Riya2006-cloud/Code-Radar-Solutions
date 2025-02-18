@@ -12,7 +12,7 @@ int main(){
             printf("Prime");
         }   
     }
-if(t=-0){
+if(t==0){
     printf("prime");
 }
 else{
