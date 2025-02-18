@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int num;
-    scanf("%c", &num);
+    scanf("%d", &num);
     if(num >= 90){
         printf("A");
     }
