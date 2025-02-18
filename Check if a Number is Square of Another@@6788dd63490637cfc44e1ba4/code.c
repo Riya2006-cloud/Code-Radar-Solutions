@@ -5,7 +5,7 @@ int main(){
     int num1, num2;
     scanf("%d %d", &num1, &num2);
     int z=pow(num2,num2);
-    if(num2==z){
+    if(num1==z){
         printf("Yes");
     }
     else {
