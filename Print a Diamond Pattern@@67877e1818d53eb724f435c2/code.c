@@ -13,7 +13,7 @@ int main(){
         printf("\n");
     }
     for(int i=n-1; i>0; i--){
-        for(int k=0; k<i-1; k++){
+        for(int k=1; k<n-i; k++){
             printf(" ");
         }
         for(int t=(2*i)-1; t>0; t--){
