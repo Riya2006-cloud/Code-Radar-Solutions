@@ -6,13 +6,18 @@ int main(){
     for(int i=0; i<n; i++){
         for(k=0; k<n-i-1; k++){
         printf(" ");
-    }
-        for(int j=0; j<=((2*i)); j++){
+        }
+        for(int j=0; j<=(2*i); j++){
             printf("*");
         }
         printf("\n");
-        for(int t=(2*i)-1; t>0; t--){
+    }
+    for(int i=n-1; i>0; i--){
+        for(int t=i; t>0; t--){
             printf("*");
+        }
+        for(int k=i; k>0; k--){
+            printf(" ");
         }
         printf("\n");
     }
