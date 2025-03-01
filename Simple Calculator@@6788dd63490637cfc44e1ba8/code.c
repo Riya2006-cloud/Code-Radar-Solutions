@@ -1,11 +1,12 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    float a,b;
+    int a,b,result;
     char c;
-    scanf("%f %f %c",&a,&b,&c);
+    scanf("%d %d %c",&a,&b,&c);
     if(c=='+'){
-        printf("%d",a+b);}
+        result = a + b;
+        printf("%d",result);}
     else if(c=='-'){
         printf("%d",a-b);}
     else if(c=='*'){
