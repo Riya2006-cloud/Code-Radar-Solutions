@@ -11,7 +11,7 @@ int main(){
             printf("*");
         }
         printf("\n");
-        for(int j=(2*i)-1; j>0; j--){
+        for(int t=(2*i)-1; j>0; j--){
             printf("*");
         }
         printf("\n");
