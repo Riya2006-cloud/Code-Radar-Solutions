@@ -15,7 +15,7 @@ int main(){
         printf("%d",a/b);
     } 
     else{
-        printf("error")
+        printf("error");
     }
     // switch(c){
     //     case '+':
