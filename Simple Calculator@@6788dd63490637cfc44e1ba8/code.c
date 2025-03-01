@@ -11,9 +11,12 @@ int main(){
         printf("%d",a-b);}
     else if(c=='*'){
         printf("%d",a*b);}
-    else{
+    else if(c=='/' && b!=0){
         printf("%d",a/b);
     } 
+    else{
+        printf("error")
+    }
     // switch(c){
     //     case '+':
     //     printf("%d",a+b);
