@@ -5,7 +5,14 @@ int main(){
     scanf("%d", &n);
     for(int i=0; i<n; i++){
         for(int j=0; j<=i; j++){
-            printf("%d ", num);
+            if(num==1){
+                printf("%d ", num);
+                num=0;
+            }
+            else{
+                printf("%d ", num);
+                num=1;
+            }
         }
         printf("\n");
         if(num==0){
