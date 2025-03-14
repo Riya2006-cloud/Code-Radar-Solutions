@@ -13,16 +13,11 @@ int main(){
                 printf("%d ", num);
                 num=1;
             }
-            if(j==i){
-                if(num==1){
-                    num=0;
-                }
-                else{
-                    num=1;
-                }
-            }
         }
         printf("\n");
+        if(i%2==0){
+            num=1;
+        }
     }
     return 0;
 }
