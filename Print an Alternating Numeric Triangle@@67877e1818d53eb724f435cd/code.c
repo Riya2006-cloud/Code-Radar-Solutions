@@ -8,7 +8,12 @@ int main(){
             printf("%d ", num);
         }
         printf("\n");
-        num--;
+        if(num==0){
+            num=1;
+        }
+        else{
+            num=0;
+        }
     }
     return 0;
 }
