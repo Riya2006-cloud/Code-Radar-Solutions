@@ -7,7 +7,13 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    for(int i=n-1; i>0; i--){
+    int shift;
+    scanf("%d", &shift);
+    for(int i=n-shift; i<n; i++){
         printf("%d\n", arr[i]);
     }
+    for(int j=0; j<shift; j++){
+        printf("%d\n", arr[j]);
+    }
+    return 0;
 }
