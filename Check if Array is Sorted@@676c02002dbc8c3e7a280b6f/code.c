@@ -7,12 +7,17 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    int highest=arr[0];
+    int highest=arr[0], count=0;
     for(int i=0; i<n; i++){
         if(highest<arr[i]){
-            highest=arr[i];
+            count++;
         }
     }
-    printf("%d", highest);
+    if(count!=0){
+        printf("Sorted");
+    }
+    else{
+        printf("Not Sorted");
+    }
     return 0;
 }
