@@ -12,7 +12,7 @@ int main(){
     for(int i=n-shift; i<n; i++){
         printf("%d\n", arr[i]);
     }
-    for(int j=0; j<=shift; j++){
+    for(int j=0; j<=n-shift; j++){
         printf("%d\n", arr[j]);
     }
     return 0;
